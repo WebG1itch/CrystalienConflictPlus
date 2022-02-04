@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CrystalienPlus.dir/objects.a
+C:\PROGRA~1\MINGW6~1.0\bin\ar.exe cr CMakeFiles\CrystalienPlus.dir/objects.a @CMakeFiles\CrystalienPlus.dir\objects1.rsp
+C:\PROGRA~1\MINGW6~1.0\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\CrystalienPlus.dir/objects.a -Wl,--no-whole-archive -o CrystalienPlus.exe -Wl,--out-implib,libCrystalienPlus.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CrystalienPlus.dir\linklibs.rsp
