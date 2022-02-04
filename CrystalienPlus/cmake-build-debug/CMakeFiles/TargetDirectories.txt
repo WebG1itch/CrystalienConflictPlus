@@ -1,3 +1,0 @@
-C:/Users/Jake/CLionProjects/CrystalienPlus/cmake-build-debug/CMakeFiles/CrystalienPlus.dir
-C:/Users/Jake/CLionProjects/CrystalienPlus/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Jake/CLionProjects/CrystalienPlus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
