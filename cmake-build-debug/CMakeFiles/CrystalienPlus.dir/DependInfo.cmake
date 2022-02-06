@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/src/CrstalienConflictPlus.cpp" "C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/cmake-build-debug/CMakeFiles/CrystalienPlus.dir/src/CrstalienConflictPlus.cpp.obj"
+  "C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/src/Game.cpp" "C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/cmake-build-debug/CMakeFiles/CrystalienPlus.dir/src/Game.cpp.obj"
   "C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/src/Window.cpp" "C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/cmake-build-debug/CMakeFiles/CrystalienPlus.dir/src/Window.cpp.obj"
-  "C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/src/main.cpp" "C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/cmake-build-debug/CMakeFiles/CrystalienPlus.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

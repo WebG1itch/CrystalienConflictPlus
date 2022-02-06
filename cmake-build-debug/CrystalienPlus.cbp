@@ -90,13 +90,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/src/CrstalienConflictPlus.cpp">
+			<Option target="CrystalienPlus"/>
+		</Unit>
+		<Unit filename="C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/src/Game.cpp">
+			<Option target="CrystalienPlus"/>
+		</Unit>
+		<Unit filename="C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/src/Game.h">
+			<Option target="CrystalienPlus"/>
+		</Unit>
 		<Unit filename="C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/src/Window.cpp">
 			<Option target="CrystalienPlus"/>
 		</Unit>
 		<Unit filename="C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/src/Window.h">
-			<Option target="CrystalienPlus"/>
-		</Unit>
-		<Unit filename="C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/src/main.cpp">
 			<Option target="CrystalienPlus"/>
 		</Unit>
 		<Unit filename="C:/Users/Jake/Documents/Actual Documents/Mars Mission/CrystalienConflictPlus/CMakeLists.txt">

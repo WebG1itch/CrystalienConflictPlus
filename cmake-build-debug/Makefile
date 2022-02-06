@@ -128,6 +128,54 @@ CrystalienPlus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/build
 .PHONY : CrystalienPlus/fast
 
+src/CrstalienConflictPlus.obj: src/CrstalienConflictPlus.cpp.obj
+.PHONY : src/CrstalienConflictPlus.obj
+
+# target to build an object file
+src/CrstalienConflictPlus.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/CrstalienConflictPlus.cpp.obj
+.PHONY : src/CrstalienConflictPlus.cpp.obj
+
+src/CrstalienConflictPlus.i: src/CrstalienConflictPlus.cpp.i
+.PHONY : src/CrstalienConflictPlus.i
+
+# target to preprocess a source file
+src/CrstalienConflictPlus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/CrstalienConflictPlus.cpp.i
+.PHONY : src/CrstalienConflictPlus.cpp.i
+
+src/CrstalienConflictPlus.s: src/CrstalienConflictPlus.cpp.s
+.PHONY : src/CrstalienConflictPlus.s
+
+# target to generate assembly for a file
+src/CrstalienConflictPlus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/CrstalienConflictPlus.cpp.s
+.PHONY : src/CrstalienConflictPlus.cpp.s
+
+src/Game.obj: src/Game.cpp.obj
+.PHONY : src/Game.obj
+
+# target to build an object file
+src/Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/Game.cpp.obj
+.PHONY : src/Game.cpp.obj
+
+src/Game.i: src/Game.cpp.i
+.PHONY : src/Game.i
+
+# target to preprocess a source file
+src/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/Game.cpp.i
+.PHONY : src/Game.cpp.i
+
+src/Game.s: src/Game.cpp.s
+.PHONY : src/Game.s
+
+# target to generate assembly for a file
+src/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/Game.cpp.s
+.PHONY : src/Game.cpp.s
+
 src/Window.obj: src/Window.cpp.obj
 .PHONY : src/Window.obj
 
@@ -152,30 +200,6 @@ src/Window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/Window.cpp.s
 .PHONY : src/Window.cpp.s
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
-
-# target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CrystalienPlus
+	@echo ... src/CrstalienConflictPlus.obj
+	@echo ... src/CrstalienConflictPlus.i
+	@echo ... src/CrstalienConflictPlus.s
+	@echo ... src/Game.obj
+	@echo ... src/Game.i
+	@echo ... src/Game.s
 	@echo ... src/Window.obj
 	@echo ... src/Window.i
 	@echo ... src/Window.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
 .PHONY : help
 
 

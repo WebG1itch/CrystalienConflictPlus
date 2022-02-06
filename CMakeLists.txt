@@ -3,7 +3,7 @@ project(CrystalienPlus)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CrystalienPlus src/CrstalienConflictPlus.cpp src/Window.cpp src/Window.h)
+add_executable(CrystalienPlus src/CrstalienConflictPlus.cpp src/Window.cpp src/Window.h src/Game.cpp src/Game.h)
 
 include_directories(headers /usr/include c:/SFML/include)
 

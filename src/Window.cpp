@@ -45,3 +45,5 @@ void Window::toggleFullscreen() {
     destroy();
     create();
 }
+
+
