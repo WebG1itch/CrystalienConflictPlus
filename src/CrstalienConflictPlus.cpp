@@ -3,13 +3,13 @@
 int main() {
     sf::RenderWindow window(sf::VideoMode(640, 480), "Testing");
     sf::Texture baseGroundTexture;
-    if(!baseGroundTexture.loadFromFile("../graphics/terrain/terrain.png")) {
+    if(!baseGroundTexture.loadFromFile("../graphics/terrain/bait_1.png")) {
         // Manage errors here :)
     }
     sf::Sprite sprite(baseGroundTexture);
     sf::Vector2u size = baseGroundTexture.getSize();
     sprite.setOrigin(size.x / 2, size.y / 2);
-    sf::Vector2f increment(0.4f, 0.4f);
+    sf::Vector2f increment(0.1f, 0.1f);
 
     sprite.setColor(sf::Color::White);
 

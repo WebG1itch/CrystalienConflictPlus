@@ -80,12 +80,12 @@ clean: CMakeFiles/CrystalienPlus.dir/clean
 CMakeFiles/CrystalienPlus.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Jake\Documents\Actual Documents\Mars Mission\CrystalienConflictPlus\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target CrystalienPlus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Jake\Documents\Actual Documents\Mars Mission\CrystalienConflictPlus\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Built target CrystalienPlus"
 .PHONY : CMakeFiles/CrystalienPlus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CrystalienPlus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jake\Documents\Actual Documents\Mars Mission\CrystalienConflictPlus\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jake\Documents\Actual Documents\Mars Mission\CrystalienConflictPlus\cmake-build-debug\CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CrystalienPlus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jake\Documents\Actual Documents\Mars Mission\CrystalienConflictPlus\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/CrystalienPlus.dir/rule

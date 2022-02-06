@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CrystalienPlus.dir/src/Window.cpp.obj"
   "CMakeFiles/CrystalienPlus.dir/src/main.cpp.obj"
   "CrystalienPlus.exe"
   "CrystalienPlus.exe.manifest"

@@ -128,6 +128,30 @@ CrystalienPlus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/build
 .PHONY : CrystalienPlus/fast
 
+src/Window.obj: src/Window.cpp.obj
+.PHONY : src/Window.obj
+
+# target to build an object file
+src/Window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/Window.cpp.obj
+.PHONY : src/Window.cpp.obj
+
+src/Window.i: src/Window.cpp.i
+.PHONY : src/Window.i
+
+# target to preprocess a source file
+src/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/Window.cpp.i
+.PHONY : src/Window.cpp.i
+
+src/Window.s: src/Window.cpp.s
+.PHONY : src/Window.s
+
+# target to generate assembly for a file
+src/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CrystalienPlus.dir\build.make CMakeFiles/CrystalienPlus.dir/src/Window.cpp.s
+.PHONY : src/Window.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CrystalienPlus
+	@echo ... src/Window.obj
+	@echo ... src/Window.i
+	@echo ... src/Window.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
