@@ -8,7 +8,7 @@ Game::Game(): m_window("Testing Chamber Constructed", sf::Vector2u(800,600)) {
     // Set up members
     m_spriteTexture.loadFromFile("../graphics/terrain/bait_1.png");
     m_sprite.setTexture(m_spriteTexture);
-    m_increment = sf::Vector2i(1,1);
+    m_increment = sf::Vector2i(60,60); // Moves at 60px / second
 }
 
 Game::~Game() {}
@@ -30,7 +30,8 @@ void Game::moveSprite() {
         m_increment.y = -m_increment.y;
     }
 
-    m_sprite.setPosition(m_sprite.getPosition().x + m_increment.x, m_sprite.getPosition().y + m_increment.y);
+    float deltaTime = m_elapsed.asSeconds();
+    m_sprite.setPosition(m_sprite.getPosition().x + (m_increment.x * deltaTime), m_sprite.getPosition().y + (m_increment.y * deltaTime));
 }
 
 void Game::render() {
